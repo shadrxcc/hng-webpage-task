@@ -15,14 +15,10 @@ a {
   text-decoration: none;
   color: #101828;
   padding: 24px 32px 24px 32px;
-  margin: 12px 0px 12px;
-  border: 1px solid #EAECF0;
-  background: #EAECF0;
-  width: 290px;
 }
 
 a:focus {
-  outline: 0;
+  outline: none;
 }
 
 .nav {
@@ -33,7 +29,10 @@ a:focus {
 
 .link-tag {
   padding: 24px 32px 24px 32px;
-  
+  margin: 12px 0px 12px;
+  border: 1px solid #EAECF0;
+  background: #EAECF0;
+  width: 290px;
   border-radius: 8px;
   text-align: center;
   font-style: normal;
