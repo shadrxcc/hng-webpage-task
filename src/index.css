@@ -15,6 +15,14 @@ a {
   text-decoration: none;
   color: #101828;
   padding: 24px 32px 24px 32px;
+  margin: 12px 0px 12px;
+  border: 1px solid #EAECF0;
+  background: #EAECF0;
+  width: 290px;
+}
+
+a:focus {
+  outline: 0;
 }
 
 .nav {
@@ -25,10 +33,7 @@ a {
 
 .link-tag {
   padding: 24px 32px 24px 32px;
-  margin: 12px 0px 12px;
-  border: 1px solid #EAECF0;
-  background: #EAECF0;
-  width: 290px;
+  
   border-radius: 8px;
   text-align: center;
   font-style: normal;
@@ -87,30 +92,30 @@ a {
 
 @media (min-width: 641px) and (max-width: 819px) {
   .link-tag {
-    width: 660px;
+    width: 540px;
   }
 }
 
 @media (min-width: 820px) and (max-width: 911px) {
   .link-tag {
-    width: 716px;
+    width: 574px;
   }
 }
 
 @media (min-width: 912px) and (max-width: 1023px) {
   .link-tag {
-    width: 800px;
+    width: 659px;
   }
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
   .link-tag {
-    width: 916px;
+    width: 723px;
   }
 }
 
 @media (min-width: 1280px) {
   .link-tag {
-    width: 1160px;
+    width: 969px;
   }
 }
