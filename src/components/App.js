@@ -1,21 +1,14 @@
-import '../'
+import React from "react";
+import ProfileImg from "./profile";
+import Links from "./links";
+import Footer from "./footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ProfileImg />
+      <Links />
+      <Footer />
     </div>
   );
 }
