@@ -63,13 +63,19 @@ a {
 
 @media (min-width: 360px) and (max-width: 374px) {
   .link-tag {
-    width: 276px;
+    width: 266px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 389px) {
+  .link-tag {
+    width: 266px;
   }
 }
 
 @media (min-width: 412px) and (max-width: 539px) {
   .link-tag {
-    width: 321px;
+    width: 311px;
   }
 }
 
