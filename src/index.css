@@ -1,13 +1,13 @@
 body {
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -30,8 +30,8 @@ a:focus {
 .link-tag {
   padding: 24px 32px 24px 32px;
   margin: 12px 0px 12px;
-  border: 1px solid #EAECF0;
-  background: #EAECF0;
+  border: 1px solid #eaecf0;
+  background: #eaecf0;
   width: 290px;
   border-radius: 8px;
   text-align: center;
@@ -45,17 +45,63 @@ a:focus {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 24px 0;
+  margin-top: 24px;
 }
 
 .icon {
   margin: 0 13.38px 0;
-  font-size: 20px;
+  font-size: 26px;
+}
+
+.pic {
+  height: 89px;
+  width: 96px;
+  border-radius: 75%;
+}
+
+.pfp {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin: 60px 0 4px;
+}
+
+.zuri {
+  width: 108px;
+}
+
+.footer-text {
+  font-size: 14px;
+  line-height: 20px;
+  color: #667085;
+}
+
+.logo-footer {
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid #EAECF0;
+  margin: 0 1.4em;
+  padding: 25px 0 0 0;
+}
+
+.I4G {
+  width: 86px;
+}
+
+.line {
+  background: #667085;
+}
+
+.footer-cont {
+  padding: 32px 0;
 }
 
 @media (max-width: 280px) {
   .link-tag {
-    width: 263px;
+    width: 241px;
     padding: 24px 0px 24px 0px;
+    font-size: 12px;
   }
 }
 
@@ -93,11 +139,25 @@ a:focus {
   .link-tag {
     width: 540px;
   }
+
+  .logo-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 5.2em;
+  }
 }
 
 @media (min-width: 820px) and (max-width: 911px) {
   .link-tag {
     width: 574px;
+  }
+
+  .logo-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 5.9em 0;
   }
 }
 
@@ -105,16 +165,37 @@ a:focus {
   .link-tag {
     width: 659px;
   }
+
+  .logo-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 6em;
+  }
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
   .link-tag {
     width: 723px;
   }
+
+  .logo-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 7.5em;
+  }
 }
 
 @media (min-width: 1280px) {
   .link-tag {
     width: 969px;
+  }
+
+  .logo-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 7.8em;
   }
 }
