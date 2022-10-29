@@ -54,7 +54,7 @@ a:focus {
   font-size: 26px;
 }
 
-.pic {
+#profile__img {
   height: 125px;
   width: 125px;
   border-radius: 75%;
@@ -65,6 +65,23 @@ a:focus {
   text-align: center;
   flex-direction: column;
   margin: 60px 0 4px;
+}
+
+.menu-share {
+  text-align: end;
+  padding-right: 10%;
+}
+
+.iconrct {
+    color: #94969c;
+    border: 1px dashed #94969c;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 150%;
+}
+
+.share {
+  display: none;
 }
 
 .zuri {
@@ -140,6 +157,14 @@ a:focus {
     width: 540px;
   }
 
+  .share {
+  display: block;
+}
+
+.menu {
+display: none;
+}
+
   .logo-footer {
     display: flex;
     flex-direction: row;
@@ -159,6 +184,14 @@ a:focus {
     justify-content: space-between;
     margin: 0 5.9em 0;
   }
+
+  .share {
+  display: block;
+}
+
+.menu {
+display: none;
+}
 }
 
 @media (min-width: 912px) and (max-width: 1023px) {
@@ -172,6 +205,14 @@ a:focus {
     justify-content: space-between;
     margin: 0 6em;
   }
+
+  .share {
+  display: block;
+}
+
+.menu {
+display: none;
+}
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
@@ -185,6 +226,14 @@ a:focus {
     justify-content: space-between;
     margin: 0 7.5em;
   }
+
+  .share {
+  display: block;
+}
+
+.menu {
+display: none;
+}
 }
 
 @media (min-width: 1280px) {
@@ -198,4 +247,12 @@ a:focus {
     justify-content: space-between;
     margin: 0 7.8em;
   }
+
+  .share {
+  display: block;
+}
+
+.menu {
+display: none;
+}
 }
