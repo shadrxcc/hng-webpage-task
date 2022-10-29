@@ -73,11 +73,11 @@ a:focus {
 }
 
 .iconrct {
-    color: #94969c;
-    border: 1px dashed #94969c;
-    border-radius: 50%;
-    padding: 5px;
-    font-size: 150%;
+  color: #94969c;
+  border: 1px dashed #94969c;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 150%;
 }
 
 .share {
@@ -158,12 +158,12 @@ a:focus {
   }
 
   .share {
-  display: block;
-}
+    display: block;
+  }
 
-.menu {
-display: none;
-}
+  .menu {
+    display: none;
+  }
 
   .logo-footer {
     display: flex;
@@ -186,12 +186,12 @@ display: none;
   }
 
   .share {
-  display: block;
-}
+    display: block;
+  }
 
-.menu {
-display: none;
-}
+  .menu {
+    display: none;
+  }
 }
 
 @media (min-width: 912px) and (max-width: 1023px) {
@@ -207,12 +207,12 @@ display: none;
   }
 
   .share {
-  display: block;
-}
+    display: block;
+  }
 
-.menu {
-display: none;
-}
+  .menu {
+    display: none;
+  }
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
@@ -228,12 +228,12 @@ display: none;
   }
 
   .share {
-  display: block;
-}
+    display: block;
+  }
 
-.menu {
-display: none;
-}
+  .menu {
+    display: none;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -249,10 +249,10 @@ display: none;
   }
 
   .share {
-  display: block;
-}
+    display: block;
+  }
 
-.menu {
-display: none;
-}
+  .menu {
+    display: none;
+  }
 }
