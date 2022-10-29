@@ -13,7 +13,6 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-cont">
-
           <div className="logo-footer">
             <div>
               <img

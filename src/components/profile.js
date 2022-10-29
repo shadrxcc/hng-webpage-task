@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { Icon } from "@iconify/react";
 
 const ProfileImg = () => {
@@ -33,4 +33,4 @@ const ProfileImg = () => {
   );
 };
 
-export default ProfileImg
+export default ProfileImg;
