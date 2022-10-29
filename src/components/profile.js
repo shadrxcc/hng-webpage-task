@@ -16,7 +16,8 @@ const ProfileImg = () => {
         <div>
           <img
             id="profile__img"
-            src="https://www.linkpicture.com/q/logo-1_1.jpg"
+            src="https://www.linkpicture.com/q/memoji.jpg"
+            type="image"
             alt="profile-pic"
           ></img>
         </div>
