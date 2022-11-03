@@ -6,11 +6,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
 a {
   text-decoration: none;
   color: #101828;
@@ -29,7 +24,7 @@ a:focus {
 
 .link-tag {
   padding: 24px 32px 24px 32px;
-  margin: 12px 0px 12px;
+  margin: 12px 0 12px;
   border: 1px solid #eaecf0;
   background: #eaecf0;
   width: 290px;
@@ -99,7 +94,7 @@ a:focus {
 .logo-footer {
   display: flex;
   flex-direction: column;
-  border-top: 2px solid #EAECF0;
+  border-top: 2px solid #eaecf0;
   margin: 0 1.4em;
   padding: 25px 0 0 0;
 }
@@ -119,7 +114,7 @@ a:focus {
 @media (max-width: 280px) {
   .link-tag {
     width: 241px;
-    padding: 24px 0px 24px 0px;
+    padding: 24px 0 24px 0;
     font-size: 12px;
   }
 }
