@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Links = () => {
   return (
@@ -81,6 +82,13 @@ const Links = () => {
               A directory where you pitch the free design book offered by Zuri
             </sub>
           </a>
+        </div>
+
+        <div className="link-tag">
+          <Link to={"/contact"} className="links" id="contact">
+            Contact Me
+            <sub hidden>Reach out to me</sub>
+          </Link>
         </div>
       </div>
     </>

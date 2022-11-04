@@ -110,6 +110,79 @@ a:focus {
   padding: 32px 0;
 }
 
+button.ui.button.btn-submit {
+  width: 100%;
+  background: #1570ef;
+  padding: 1.3em;
+  color: #fff;
+  border: 1px solid #1570ef;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+
+#supporting-text {
+  font-size: 18px;
+  line-height: 28px;
+  color: #475467;
+}
+
+::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #667085;
+  inline-size: auto;
+}
+
+#errs {
+  color: red;
+  padding-top: 1px;
+}
+
+.ui.checkbox {
+  margin: 24px 0 32px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475467;
+}
+
+.ui.checkbox .box,
+.ui.checkbox label {
+  font-weight: 400;
+  font-size: 1.21em;
+  line-height: 24px;
+  color: #475467;
+}
+
+#heading {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  color: #101828;
+}
+
+.contact-form {
+  margin: 64px 18px 0;
+}
+
+#forms {
+  margin-top: 48px;
+}
+
+.ui.fluid.input {
+  border: 1px solid #d0d5dd;
+  box-shadow: 0 1px 2px rgb(16 24 40 / 5%);
+  border-radius: 8px;
+}
+
+.ui.form.textarea {
+  border: 1px solid #d0d5dd;
+  box-shadow: 0 1px 2px rgb(16 24 40 / 5%);
+  border-radius: 8px;
+}
+
 @media (max-width: 280px) {
   .link-tag {
     width: 241px;
@@ -140,6 +213,10 @@ a:focus {
   .link-tag {
     width: 311px;
   }
+
+  .contact-form {
+    margin: 64px 28px 0;
+  }
 }
 
 @media (min-width: 540px) and (max-width: 640px) {
@@ -167,6 +244,10 @@ a:focus {
     justify-content: space-between;
     margin: 0 5.2em;
   }
+
+  .contact-form {
+    margin: 64px 120px 0;
+  }
 }
 
 @media (min-width: 820px) and (max-width: 911px) {
@@ -187,6 +268,10 @@ a:focus {
 
   .menu {
     display: none;
+  }
+
+  .contact-form {
+    margin: 64px 135px 0;
   }
 }
 
@@ -209,6 +294,10 @@ a:focus {
   .menu {
     display: none;
   }
+
+  .contact-form {
+    margin: 64px 160px 0;
+  }
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
@@ -230,6 +319,10 @@ a:focus {
   .menu {
     display: none;
   }
+
+  .contact-form {
+    margin: 64px 260px 0;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -250,5 +343,9 @@ a:focus {
 
   .menu {
     display: none;
+  }
+
+  .contact-form {
+    margin: 64px 300px 0;
   }
 }
