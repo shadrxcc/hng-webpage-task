@@ -146,6 +146,16 @@ button.ui.button.btn-submit {
   padding-top: 1px;
 }
 
+input,
+textarea {
+  font-size: 16px;
+}
+
+input:focus,
+textarea:focus {
+  font-size: 16px;
+}
+
 .ui.checkbox {
   margin: 24px 0 32px;
   font-weight: 400;
