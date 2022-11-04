@@ -19,20 +19,21 @@ export default function FormValidation() {
             />
           </Form.Group>
 
-          <Form.Field>
-            <label>Email</label>
-            <input
+        
+            <Form.Input
+              fluid
+              label="Email"
               placeholder="yourname@email.com"
               type="email"
             />
-          </Form.Field>
+          
           <Form.TextArea
-            label="About"
+            label="Message"
             placeholder="Send me a message and I'll reply you as soon as possible..."
           />
           <Form.Checkbox label="You agree to providing your data to shadrxcc who may contact you" />
           <Button className="btn-submit" type="submit">
-            Submit
+            Send Message
           </Button>
         </Form>
       </div>
