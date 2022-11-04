@@ -8,12 +8,15 @@ body {
 
 a {
   text-decoration: none;
-  color: #101828;
   padding: 24px 32px 24px 32px;
 }
 
 a:focus {
   outline: 0;
+}
+
+.links {
+  color: #101828;
 }
 
 .nav {
@@ -27,7 +30,7 @@ a:focus {
   margin: 12px 0 12px;
   border: 1px solid #eaecf0;
   background: #eaecf0;
-  width: 290px;
+  width: 349px;
   border-radius: 8px;
   text-align: center;
   font-style: normal;
@@ -73,7 +76,7 @@ a:focus {
   border: 1px dashed #94969c;
   border-radius: 50%;
   padding: 5px;
-  font-size: 150%;
+  font-size: 1.6em;
 }
 
 .share {
@@ -88,6 +91,10 @@ a:focus {
   font-size: 14px;
   line-height: 20px;
   color: #667085;
+}
+
+.top {
+  padding: 5px 0;
 }
 
 .logo-footer {
@@ -185,7 +192,7 @@ button.ui.button.btn-submit {
 
 @media (max-width: 280px) {
   .link-tag {
-    width: 241px;
+    width: 288px;
     padding: 24px 0 24px 0;
     font-size: 12px;
   }
@@ -199,19 +206,19 @@ button.ui.button.btn-submit {
 
 @media (min-width: 360px) and (max-width: 374px) {
   .link-tag {
-    width: 266px;
+    width: 315px;
   }
 }
 
 @media (min-width: 375px) and (max-width: 389px) {
   .link-tag {
-    width: 266px;
+    width: 335px;
   }
 }
 
 @media (min-width: 412px) and (max-width: 539px) {
   .link-tag {
-    width: 311px;
+    width: 364px;
   }
 
   .contact-form {
@@ -232,6 +239,7 @@ button.ui.button.btn-submit {
 
   .share {
     display: block;
+    font-size: 25px;
   }
 
   .menu {
@@ -264,6 +272,7 @@ button.ui.button.btn-submit {
 
   .share {
     display: block;
+    font-size: 25px;
   }
 
   .menu {
@@ -289,6 +298,7 @@ button.ui.button.btn-submit {
 
   .share {
     display: block;
+    font-size: 25px;
   }
 
   .menu {
@@ -314,6 +324,7 @@ button.ui.button.btn-submit {
 
   .share {
     display: block;
+    font-size: 25px;
   }
 
   .menu {
@@ -339,6 +350,7 @@ button.ui.button.btn-submit {
 
   .share {
     display: block;
+    font-size: 25px;
   }
 
   .menu {

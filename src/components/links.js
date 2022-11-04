@@ -8,7 +8,7 @@ const Links = () => {
         <div className="link-tag">
           <a
             className="links"
-            id="btn-zuri"
+            id="twitter_link"
             target="blank"
             href="https://twitter.com/shadrxcc/"
           >
