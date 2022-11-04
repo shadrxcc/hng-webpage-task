@@ -85,7 +85,7 @@ const Links = () => {
         </div>
 
         <div className="link-tag">
-          <a className="links" id="contact" target="blank" href="/contact">
+          <a className="links" id="contact" href="/contact">
             Contact Me
             <sub hidden>
               Reach out to me
