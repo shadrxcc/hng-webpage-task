@@ -85,12 +85,10 @@ const Links = () => {
         </div>
 
         <div className="link-tag">
-          <a className="links" id="contact" href="/contact">
+          <Link to={"/contact"} className="links" id="contact">
             Contact Me
-            <sub hidden>
-              Reach out to me
-            </sub>
-          </a>
+            <sub hidden>Reach out to me</sub>
+          </Link>
         </div>
       </div>
     </>
