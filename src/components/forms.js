@@ -18,9 +18,8 @@ const FormValidation = () => {
     }
   });
 
-  const onSubmit = (e) => {
+  const onSubmit = () => {
     alert('Message sent!');
-    e.preventDefault();
   };
 
     return (
