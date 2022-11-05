@@ -8,10 +8,19 @@ const FormValidation = () => {
     register,
     handleSubmit,
     formState: { errors }
-  } = useForm();
+  } = useForm({
+    defaultValues: {
+      firstName: "",
+      lastName: "",
+      email: "",
+      message: "",
+      agreement: false
+    }
+  });
 
-  const onSubmit = (data) => {
-    console.log(data);
+  const onSubmit = (e) => {
+    alert('Message sent!');
+    e.preventDefault();
   };
 
     return (
@@ -27,8 +36,8 @@ const FormValidation = () => {
                   type="text"
                   {...register("firstName", { required: true })}
                 />
+                {errors.firstName && <p id="errs">Please enter first name</p>}
               </Form.Field>
-              {errors.firstName && <p id="errs">Please enter first name</p>}
 
               <Form.Field>
                 <label>Last Name</label>
@@ -55,7 +64,7 @@ const FormValidation = () => {
                 })}
               />
               {errors.email && (
-                <p id="errs">Please enter a correct mail format</p>
+                <p id="errs">Please enter a valid email</p>
               )}
             </Form.Field>
 
@@ -63,8 +72,7 @@ const FormValidation = () => {
               <label>Message</label>
               <textarea
                 id="message"
-                placeholder="Send me a message and I will reply
-              you as soon as possible..."
+                placeholder="Send me a message and I will reply you as soon as possible..."
                 {...register("message", {
                   required: true,
                 })}
@@ -72,7 +80,24 @@ const FormValidation = () => {
               {errors.message && <p id="errs">Please enter a message</p>}
             </Form.Field>
 
-            <Form.Checkbox label="You agree to providing your data to shadrxcc who may contact you" />
+            <Form.Field>
+              
+                <label>
+                  <input
+                    type="checkbox"
+                    {...register("agreement", {
+                      required: true,
+                    })}
+                  />
+                  <span id="check-label">
+                    You agree to providing your data to Shadrach Akaade who may contact
+                    you
+                  </span>
+                </label>
+            
+              {errors.agreement && <p id="errs">This field is required</p>}
+            </Form.Field>
+
             <Button className="btn-submit" type="submit">
               Send Message
             </Button>
