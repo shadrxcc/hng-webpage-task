@@ -28,7 +28,7 @@ const FormValidation = () => {
           <Form onSubmit={handleSubmit(onSubmit)}>
             <Form.Group widths="equal">
               <Form.Field>
-                <label>First Name</label>
+                <label>First name</label>
                 <input
                   id="first_name"
                   placeholder="Enter your first name"
@@ -39,7 +39,7 @@ const FormValidation = () => {
               </Form.Field>
 
               <Form.Field>
-                <label>Last Name</label>
+                <label>Last name</label>
                 <input
                   id="last_name"
                   placeholder="Enter your last Name"
@@ -62,9 +62,7 @@ const FormValidation = () => {
                     /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
                 })}
               />
-              {errors.email && (
-                <p id="errs">Please enter a valid email</p>
-              )}
+              {errors.email && <p id="errs">Please enter a valid email</p>}
             </Form.Field>
 
             <Form.Field>
@@ -80,24 +78,23 @@ const FormValidation = () => {
             </Form.Field>
 
             <Form.Field>
-              
-                <label>
-                  <input
-                    type="checkbox"
-                    {...register("agreement", {
-                      required: true,
-                    })}
-                  />
-                  <span id="check-label">
-                    You agree to providing your data to Shadrach Akaade who may contact
-                    you
-                  </span>
-                </label>
-            
+              <label>
+                <input
+                  type="checkbox"
+                  {...register("agreement", {
+                    required: true,
+                  })}
+                />
+                <span id="check-label">
+                  You agree to providing your data to Shadrach Akaade who may
+                  contact you
+                </span>
+              </label>
+
               {errors.agreement && <p id="errs">This field is required</p>}
             </Form.Field>
 
-            <Button className="btn-submit" type="submit">
+            <Button id="btn__submit" className="btn-submit" type="submit">
               Send Message
             </Button>
           </Form>
